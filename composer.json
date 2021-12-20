@@ -91,12 +91,7 @@
         "post-update-cmd": [
             "Google\\Task\\Composer::cleanup",
             "@php artisan cms:publish:assets"
-        ],
-         "post-install-cmd": [
-             "php artisan clear-compiled",
-             "chmod -R 777 public/",
-             "chmod -R 777 storage/"
-         ]
+        ]
     },
     "config": {
         "preferred-install": "dist",
